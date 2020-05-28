@@ -1,26 +1,30 @@
 # Recap function
 
-# define a funtion
+# define a function
 
 def say_hello_name(name):
-    return(f'hello {name} ' )
+    return say_hello_name(name)
 
 
-#BAD
+
 def return_formatted_name(name):
     return name.title().strip()
 
+name = "Jon Holder   "
 
-# #print the return of the function  NOT the funtion
-f_name = return_formatted_name( '     Jony   ')
+
+
+
+#Good pointers
+
+# print the return of the function  NOT the funtion
 # print(say_hello_name(f_name))
 # test set up
-# #print('Testing funtion return formated{} with '  '          jon                   ----->' '')
+# #print('Testing function return formatted{} with '  '          jon                   ----->' '')
 # print(return_formatted_name())
 # know_input = '     Jon    '
 # expected_out = 'Jon'
 
-print(return_formatted_name(f_name))
-#test execution
+
 
 

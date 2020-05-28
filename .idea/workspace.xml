@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bc659d-c308-4872-b6e4-ac041533d9a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_test_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_for_say_hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory_functions_spec_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/factory_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/general_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/general_test_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_for_say_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_for_say_hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,49 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.general_test_file">
+  <component name="RunManager" selected="Python.factory_functions_spec_tests">
+    <configuration name="factory_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pao_phat_bakery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factory_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="factory_functions_spec_tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pao_phat_bakery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factory_functions_spec_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="general_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pao_phat_bakery" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,27 +122,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pao_phat_bakery" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_factory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_for_say_hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pao_phat_bakery" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.general_test_file" />
+        <item itemvalue="Python.factory_functions_spec_tests" />
+        <item itemvalue="Python.factory_functions" />
         <item itemvalue="Python.test_for_say_hello" />
+        <item itemvalue="Python.general_test_file" />
         <item itemvalue="Python.general_functions" />
-        <item itemvalue="Python.run_factory" />
       </list>
     </recent_temporary>
   </component>
@@ -145,22 +167,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1590596038458">
+    <state x="561" y="114" key="CommitChangelistDialog2" timestamp="1590687244789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590596038458" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1590596038458">
+    <state x="561" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590687244789" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1590687138306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590596038458" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1590596038457">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590681010262" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590687138306" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1590687138306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590596038457" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1590596038458">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590681010262" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590687138306" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1590687138306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590596038458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590681010262" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590687138306" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1590687138306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590681010262" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590687138306" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1590595641105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
